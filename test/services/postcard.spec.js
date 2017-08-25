@@ -9,7 +9,7 @@ var Config = require('../../config');
 require('angular-mocks');
 
 describe('postcard service', function () {
-  
+
   var $q;
   var $rootScope;
   var API;
@@ -23,7 +23,7 @@ describe('postcard service', function () {
   }));
 
   describe('create', function () {
-    
+
     it('calls the correct endpoint and with correct params', function () {
       var payload = { id: 'psc_id' };
 

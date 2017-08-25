@@ -3,7 +3,7 @@
 var Config = require('../../config');
 
 module.exports = function (API) {
-  
+
   var Postcard = {};
 
   Postcard.url = Config.API_HOST + '/postcards';
